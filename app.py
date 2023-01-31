@@ -7,7 +7,7 @@ def hello_world():
 
 @app.route('/version')
 def get_version():
-    return 'App version (using generic webhook): <b>2.0</b>'
+    return 'App version (using generic webhook): <b>1.0</b>'
 
 @app.route('/test')
 def get_test():
